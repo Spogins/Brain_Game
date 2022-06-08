@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style/style.css" rel="stylesheet">
+  <script src="script/funct.js"></script>
+  <title>Document</title>
+</head>
+<body> 
+  <div class="border">
+      <div id="left_block" class="left_block">
+        <div id="section_mode" class="selection_mode">
+          <div class="mode">Размер Поля</div>
+          <div class="mode"><button onclick="ng.setDeskSide(3)">3 х 3</button></div>
+          <div class="mode"><button onclick="ng.setDeskSide(4)">4 х 4</button></div>
+          <div class="mode"><button onclick="ng.setDeskSide(5)">5 х 5</button></div>
+          <div class="mode"><button onclick="ng.setDeskSide(6)">6 x 6</button></div>
+          <div class="mode"><button onclick="ng.setDeskSide(7)">7 x 7</button></div>
+          <div class="mode"><button onclick="ng.setDeskSide(8)">8 x 8</button></div>
+        </div>
+      </div>
+
+      <div id="elem_value" style="display: none; align-items: center; flex-direction: column;">
+          <div class="mode">Выбор количества элементов</div>
+          <div class="mode"><button onclick="ng.setElemValue(2)">2</button></div>
+          <div class="mode"><button onclick="ng.setElemValue(3)">3</button></div>
+      </div>
+
+      <div id="field" style="display: none;">
+          F
+      </div>
+    </div>
+</body>
+</html>
